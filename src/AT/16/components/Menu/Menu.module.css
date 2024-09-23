@@ -1,0 +1,16 @@
+.menu {
+  background-color: #444;
+  padding: 1rem;
+}
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuItem {
+  color: white;
+  cursor: pointer;
+}

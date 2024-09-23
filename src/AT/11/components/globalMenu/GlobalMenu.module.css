@@ -1,0 +1,40 @@
+.menu {
+  grid-area: menu;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.toggleBtn {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  background-color: initial;
+  border: none;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex: 1 1 auto;
+    height: 100%;
+    justify-content: start;
+  }
+
+  .toggleBtn {
+    flex: 0.1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

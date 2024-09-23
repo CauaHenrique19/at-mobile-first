@@ -1,0 +1,40 @@
+.relacaoTopicos {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+li span {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .relacaoTopicos {
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}

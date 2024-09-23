@@ -1,0 +1,29 @@
+.product {
+  padding: 1rem;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.description {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: green;
+}
+
+.rating {
+  font-size: 1rem;
+  color: #888;
+}

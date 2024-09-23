@@ -1,0 +1,15 @@
+.ads {
+  grid-area: ads;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .ads {
+    flex: 0.5 1 auto;
+  }
+}

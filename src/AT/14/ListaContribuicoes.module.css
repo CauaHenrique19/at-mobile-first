@@ -1,0 +1,61 @@
+.contribuicoes {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contribuicao {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.contribuicao:last-child {
+  border-bottom: none;
+}
+
+.contribuicao p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #888;
+}
+
+.info span {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .contribuicoes {
+    padding: 20px;
+  }
+
+  .contribuicao {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

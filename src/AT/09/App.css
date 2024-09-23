@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  transition: max-height 0.3s ease;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #444;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.toggle-button {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.menu-options a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.menu-options a:hover {
+  background-color: #555;
+}
+
+.collapsed {
+  max-height: 60px;
+}
+
+.expanded {
+  max-height: 300px;
+}
+
+@media (min-width: 600px) {
+  .menu-container {
+    justify-content: flex-start;
+  }
+}
