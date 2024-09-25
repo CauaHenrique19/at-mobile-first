@@ -39,7 +39,7 @@ function Menu() {
         <Divider />
         <List>
           {menuItems.map((item, index) => (
-            <ListItem button key={index}>
+            <ListItem key={index}>
               <ListItemText primary={item} />
             </ListItem>
           ))}

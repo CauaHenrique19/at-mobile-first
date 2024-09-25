@@ -10,14 +10,14 @@ function App() {
     <div>
       <CssBaseline />
       <Header />
-      <Box container>
-        <Grid2 item xs={12} sm={3}>
+      <Box>
+        <Grid2 xs={12} sm={3}>
           <Menu />
         </Grid2>
-        <Grid2 item xs={12} sm={6}>
+        <Grid2 xs={12} sm={6}>
           <Feed />
         </Grid2>
-        <Grid2 item xs={12} sm={3}>
+        <Grid2 xs={12} sm={3}>
           <FriendsList />
           <SuggestionsList />
         </Grid2>
